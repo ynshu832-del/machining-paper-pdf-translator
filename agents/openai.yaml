@@ -1,0 +1,13 @@
+interface:
+  display_name: 机械加工论文保版翻译
+  short_description: 将英文机械加工论文按原版式翻译并输出可核验的中文 PDF
+  default_prompt: 使用 $machining-paper-pdf-translator 将这篇英文机械加工论文翻译为中文，并保留原版式、图表、公式与位置。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
